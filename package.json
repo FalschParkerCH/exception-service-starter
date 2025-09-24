@@ -1,0 +1,21 @@
+{
+  "name": "exception-service-starter",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p .",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "lint": "echo 'no linter configured'"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.2"
+  }
+}
